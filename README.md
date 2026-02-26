@@ -32,7 +32,7 @@ L'application offre une interface intuitive permettant de :
 
 1. **Cloner le repository** (si ce n'est pas déjà fait) :
    ```bash
-   git clone <URL_DE_VOTRE_REPO>
+   git clone <URL_DU_REPO>
    cd protein-calculator
    ```
 
