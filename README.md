@@ -19,16 +19,16 @@ L'application offre une interface intuitive permettant de :
 - Afficher les besoins sous forme de **plages de valeurs** (ex: 112 – 126 g/jour).
 
 ###  Bonus intégrés :
-- ✅ **Validation stricte des champs** : Protection contre les poids négatifs, vérification que le poids minimum est inférieur au maximum, et obligation de sélectionner au moins un objectif.
-- ✅ **Design 100% Responsive** : Interface moderne s'adaptant aussi bien aux ordinateurs qu'aux smartphones.
-- ✅ **Export CSV** : Possibilité d'exporter le tableau généré au format CSV en un seul clic.
+-  **Validation stricte des champs** : Protection contre les poids négatifs, vérification que le poids minimum est inférieur au maximum, et obligation de sélectionner au moins un objectif.
+-  **Design 100% Responsive** : Interface moderne s'adaptant aussi bien aux ordinateurs qu'aux smartphones.
+-  **Export CSV** : Possibilité d'exporter le tableau généré au format CSV en un seul clic.
 
-## ⚙️ Technologies utilisées
+##  Technologies utilisées
 - **React 18** (via Vite)
 - **TypeScript**
 - **Vanilla CSS** 
 
-## 🚀 Installation et lancement en local
+##  Installation et lancement en local
 
 1. **Cloner le repository** (si ce n'est pas déjà fait) :
    ```bash
@@ -48,7 +48,7 @@ L'application offre une interface intuitive permettant de :
 
 L'application sera accessible (généralement) à l'adresse locale http://localhost:5173/.
 
-## 📁 Structure du projet
+##  Structure du projet
 - `src/components/` : Contient les composants réutilisables de l'interface (`Header`, `ConfigurationForm`, `ResultsTable`).
 - `src/utils/` : Contient la logique métier pure et les calculs dynamiques (`calculator.ts`), garantissant qu'aucune valeur n'est écrite en dur dans les composants.
 - `src/types/` : Définitions TypeScript pour assurer la solidité et la cohérence de la donnée.
